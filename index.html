@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layers Of Truth</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav1">
+            <div>
+                <span class="open" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+        </div>
+        <div>
+            <a href="#" class="logo"><img width="50px" src="img/white logo.png" alt="logo"></a>
+        </div>
+            <div class="dropdown">
+                <img src="img/" alt="" class="dropbtn" width="80px">
+                <div class="dropdown-content">
+                <a href="login.html">Login</a>
+                <a href="signin.html">Sign In</a>
+                <a href="profile.html">Profile</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    
+    <div id="mySidenav" class="sidenav">
+        <div class="prev">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#" class="logo2"><img width="50px" src="img/white logo.png" alt="logo"></a>
+        </div>
+        <div class="navjr">
+            <a href="#">Home</a>
+            <a href="#">Explore</a>
+            <a href="#">Library</a>
+            <a href="#recents">Upgrade</a>
+
+            <hr>
+            <a href="#" class="play">+New Playlist</a>
+            <ul>
+              <li><a href="#">Playlist 1</a></li>
+              <li><a href="#">Playlist 2</a></li>
+              <li><a href="#">Playlist 3</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="search">
+      <form action="#">
+        <input type="text" placeholder="Search Songs, Messages,">
+      </form>
+    </div>
+    <div class="enq">
+      <ul>
+        <li><a href="#">Relax</a></li>
+        <li><a href="#">Energise</a></li>
+        <li><a href="#">Commute</a></li>
+        <li><a href="#">Workout</a></li>
+        <li><a href="#">Focus</a></li>
+      </ul>
+    </div>
+
+    <div class="addr">
+      <img src="channel-pictures/my-channel.jpeg" alt="profile_picture">
+      <div class="ab">
+        <p>ONYX NSHEM</p>
+        <h2>Listen Again</h2>
+      </div>
+    </div>
+
+    <main class="scrollmenu">
+        <section class="video-grid">
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+              <div class="video-time">14:20</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  Talking Tech and AI with Google CEO Sundar Pichai!
+                </p>
+                <p class="video-author">
+                  Marques Brownlee
+                </p>
+                <p class="video-stats">
+                  3.4M views &#183; 6 months ago
+                </p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+              <div class="video-time">8:22</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-2.jpeg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  Try Not To Laugh Challenge #9
+                </p>
+                <p class="video-author">
+                  Markiplier
+                </p>
+                <p class="video-stats">
+                  19M views &#183; 4 years ago
+                </p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+              <div class="video-time">9:13</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-3.jpeg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  Crazy Tik Toks Taken Moments Before DISASTER
+                </p>
+                <p class="video-author">
+                  SSSniperWolf
+                </p>
+                <p class="video-stats">
+                  12M views &#183; 1 year ago
+                </p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+              <div class="video-time">22:09</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-4.jpeg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  The Simplest Math Problem No One Can Solve - Collatz Conjecture
+                </p>
+                <p class="video-author">
+                  Veritasium
+                </p>
+                <p class="video-stats">
+                  18M views &#183; 4 months ago
+                </p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+              <div class="video-time">11:17</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-5.jpeg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  Kadane's Algorithm to Maximum Sum Subarray Problem
+                </p>
+                <p class="video-author">
+                  CS Dojo
+                </p>
+                <p class="video-stats">
+                  519K views &#183; 5 years ago
+                </p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+              <div class="video-time">19:59</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-6.jpeg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  Anything You Can Fit In The Circle I’ll Pay For
+                </p>
+                <p class="video-author">
+                  MrBeast
+                </p>
+                <p class="video-stats">
+                  141M views &#183; 1 year ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+              <div class="video-time">14:20</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  Talking Tech and AI with Google CEO Sundar Pichai!
+                </p>
+                <p class="video-author">
+                  Marques Brownlee
+                </p>
+                <p class="video-stats">
+                  3.4M views &#183; 6 months ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+              <div class="video-time">8:22</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-2.jpeg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  Try Not To Laugh Challenge #9
+                </p>
+                <p class="video-author">
+                  Markiplier
+                </p>
+                <p class="video-stats">
+                  19M views &#183; 4 years ago
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <h1>Favourites</h1>
+      <section class="scrollmenu">
+        <div class="maincont">
+          <div>
+            <div class="content">
+              <a href="music.html"><img src="thumbnails/thumbnail-3.webp" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="music.html"><img src="thumbnails/thumbnail-3.webp" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="music.html"><img src="thumbnails/thumbnail-3.webp" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="music.html"><img src="thumbnails/thumbnail-3.webp" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+          </div>
+  
+          <div>
+            <div class="content">
+              <a href="music.html"><img src="thumbnails/thumbnail-3.webp" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="music.html"><img src="thumbnails/thumbnail-3.webp" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="music.html"><img src="thumbnails/thumbnail-3.webp" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="music.html"><img src="thumbnails/thumbnail-3.webp" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+          </div>
+  
+          <div>
+            <div class="content">
+              <a href="music.html"><img src="thumbnails/thumbnail-3.webp" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="music.html"><img src="thumbnails/thumbnail-3.webp" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="music.html"><img src="thumbnails/thumbnail-3.webp" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="music.html"><img src="thumbnails/thumbnail-3.webp" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+          </div>
+  
+          <div>
+            <div class="content">
+              <a href="#"><img src="thumbnails/thumbnail-3.webp" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="#"><img src="thumbnails/thumbnail-3.webp" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="#"><img src="thumbnails/thumbnail-3.webp" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="#"><img src="#" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+          </div>
+  
+          <div>
+            <div class="content">
+              <a href="#"><img src="#" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="#"><img src="#" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="#"><img src="#" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="#"><img src="#" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+          </div>
+  
+          <div>
+            <div class="content">
+              <a href="#"><img src="#" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="#"><img src="#" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="#"><img src="#" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="#"><img src="#" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+          </div>
+  
+          <div>
+            <div class="content">
+              <a href="#"><img src="#" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="#"><img src="#" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="#"><img src="#" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="#"><img src="#" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+          </div>
+  
+          <div>
+            <div class="content">
+              <a href="#"><img src="#" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="#"><img src="#" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="#"><img src="#" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="#"><img src="#" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+          </div>
+  
+          <div>
+            <div class="content">
+              <a href="#"><img src="#" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="#"><img src="#" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="#"><img src="#" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="#"><img src="#" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+          </div>
+  
+          <div>
+            <div class="content">
+              <a href="#"><img src="#" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="#"><img src="#" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="#"><img src="#" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="#"><img src="#" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+          </div>
+  
+          <div>
+            <div class="content">
+              <a href="#"><img src="#" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="#"><img src="#" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="#"><img src="#" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="#"><img src="#" alt="pic1"></a>
+              <div class="cont">
+                <h3>Artists name</h3>
+                <p>about the artist</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <h1>Recommended Music Videos</h1>
+      <section>
+
+      </section>
+
+      <h6>START RADIO BASED ON A SONG</h6>
+      <h1>Quick Picks</h1>
+      <section>
+
+      </section>
+
+      <h1>New Release</h1>
+      <section>
+
+      </section>
+
+      <h1>Charts</h1>
+      <section>
+
+      </section>
+
+      <h1>Artists</h1>
+      <section></section>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.display = "block";
+            document.getElementById("mySidenav").style.transitionDuration = "ease-in 12s";
+            }
+
+            function closeNav() {
+            document.getElementById("mySidenav").style.display = "none";
+            }
+    </script>
+</body>
+</html>
